@@ -1,0 +1,168 @@
+_type: export
+__export_format: 4
+__export_date: 2019-08-12T19:44:38.702Z
+__export_source: insomnia.desktop.app:v6.6.2
+resources:
+  - _id: req_3eaf88f7d253488d8f8dbdb927f58dfa
+    authentication: {}
+    body: {}
+    created: 1565366405277
+    description: ""
+    headers:
+      - id: pair_99563ab6c8574aaaab046e4a9473f023
+        name: X-API-Key
+        value: 297e2bd1-879b-4b6f-b09f-e9a075c66021
+    isPrivate: false
+    metaSortKey: -1565366405277
+    method: GET
+    modified: 1565366521301
+    name: DeleteUser
+    parameters: []
+    parentId: fld_c51ff1c1fdc14830bdc1f2ba9bc56967
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost/haulmer/index.php/user/delete/1
+    _type: request
+  - _id: fld_c51ff1c1fdc14830bdc1f2ba9bc56967
+    created: 1565318209219
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1565318209219
+    modified: 1565318209219
+    name: Haulmer
+    parentId: wrk_3fd0405f27464812891c1f21790633a3
+    _type: request_group
+  - _id: wrk_3fd0405f27464812891c1f21790633a3
+    created: 1565318017391
+    description: ""
+    modified: 1565318017391
+    name: Insomnia
+    parentId: null
+    _type: workspace
+  - _id: req_33c6225d17304f369b544cd4f027a335
+    authentication: {}
+    body:
+      mimeType: application/x-www-form-urlencoded
+      params:
+        - id: pair_314c0c86e49e43679912a994b32e393c
+          name: nombre
+          value: mario
+        - id: pair_dd86de2b89f34c91a5dcb466e002eab2
+          name: email
+          value: cony@gmail.com
+        - id: pair_a7be03f95e2e4bdebc314f121002c509
+          name: password
+          value: coni123
+    created: 1565362488454
+    description: ""
+    headers:
+      - id: pair_2a42bcf8f8994befa80c590cade0ba20
+        name: Content-Type
+        value: application/x-www-form-urlencoded
+      - id: pair_4e817458104e49028d4a4817172b616e
+        name: X-API-Key
+        value: 297e2bd1-879b-4b6f-b09f-e9a075c66021
+    isPrivate: false
+    metaSortKey: -1565362488454
+    method: POST
+    modified: 1565628079342
+    name: UpdateUser
+    parameters: []
+    parentId: fld_c51ff1c1fdc14830bdc1f2ba9bc56967
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost/haulmer/index.php/user/all
+    _type: request
+  - _id: req_90a2e6c8fcdb4a66b5c64864feb3d15a
+    authentication: {}
+    body:
+      mimeType: multipart/form-data
+      params:
+        - id: pair_be8b5b41911a4276ba6a387d30242147
+          name: nombre
+          value: Mario
+    created: 1565358313482
+    description: ""
+    headers:
+      - id: pair_254a9110db484c549f0b89292108839d
+        name: X-API-Key
+        value: 297e2bd1-879b-4b6f-b09f-e9a075c66021
+      - id: pair_21f39ca5620d4772a3f5becb6eefca3a
+        name: Content-Type
+        value: multipart/form-data
+    isPrivate: false
+    metaSortKey: -1565358313482
+    method: GET
+    modified: 1565572624609
+    name: GetUsers
+    parameters: []
+    parentId: fld_c51ff1c1fdc14830bdc1f2ba9bc56967
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost/haulmer/index.php/user/all
+    _type: request
+  - _id: req_4ed694d70e2a41548c004c43ed055414
+    authentication: {}
+    body:
+      mimeType: application/x-www-form-urlencoded
+      params:
+        - id: pair_f98f477751274cc39571901b506bf770
+          name: nombre
+          value: Mario
+        - id: pair_cc084fff9ee24ee191501a0f1641a16e
+          name: email
+          value: edi.mario.soto@gmail.com
+        - id: pair_31700c50ed184547b8d9242d7c83cef2
+          name: password
+          value: Toshi2019
+    created: 1565318903978
+    description: ""
+    headers:
+      - id: pair_b2e5ac9df5934855884c462f4408a64e
+        name: X-API-Key
+        value: 297e2bd1-879b-4b6f-b09f-e9a075c66021
+      - id: pair_a238b3023a2b4da9b33a70dbc8dbd789
+        name: Content-Type
+        value: application/x-www-form-urlencoded
+    isPrivate: false
+    metaSortKey: -1565318903978
+    method: POST
+    modified: 1565358218034
+    name: Prueba
+    parameters: []
+    parentId: fld_c51ff1c1fdc14830bdc1f2ba9bc56967
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost/haulmer/index.php/user/add
+    _type: request
+  - _id: env_b471a712574bdd12f4cc11f8c13e9c4d88448465
+    color: null
+    created: 1565318017452
+    data: {}
+    dataPropertyOrder: null
+    isPrivate: false
+    metaSortKey: 1565318017452
+    modified: 1565318017452
+    name: Base Environment
+    parentId: wrk_3fd0405f27464812891c1f21790633a3
+    _type: environment
+  - _id: jar_b471a712574bdd12f4cc11f8c13e9c4d88448465
+    cookies: []
+    created: 1565318017465
+    modified: 1565318017465
+    name: Default Jar
+    parentId: wrk_3fd0405f27464812891c1f21790633a3
+    _type: cookie_jar
